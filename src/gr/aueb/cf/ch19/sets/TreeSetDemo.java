@@ -2,12 +2,13 @@ package gr.aueb.cf.ch19.sets;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
-public class SetDemo {
+public class TreeSetDemo {
 
     public static void main(String[] args) {
         // add, remove, contains time complexity -> O(1) due to Hash
-        Set<String> bag = new HashSet<>();
+        Set<String> bag = new TreeSet<>();
         //bag.add("Honey");
 
         if (bag.contains("Milk")) {
@@ -25,5 +26,7 @@ public class SetDemo {
 //        }
 
         bag.forEach(System.out::println);
+
+
     }
 }
