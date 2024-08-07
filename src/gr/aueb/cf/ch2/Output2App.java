@@ -11,7 +11,7 @@ public class Output2App {
 
         // Δήλωση και αρχικοποίηση μεταβλητών
         int price = 100;
-        int quantity = 5;
+        int quantity = 500;
         int totalPrice = 0;
 
         // Εντολές
