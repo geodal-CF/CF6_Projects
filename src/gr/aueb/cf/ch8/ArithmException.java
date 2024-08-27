@@ -23,6 +23,6 @@ public class ArithmException extends Throwable {
             System.out.println("Error. Denominator can not be zero");
         }
 
-        System.out.println("Thanks for using the app");
+        System.out.println("\nThanks for using the app");
     }
 }
